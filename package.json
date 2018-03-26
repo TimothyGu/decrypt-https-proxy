@@ -1,0 +1,32 @@
+{
+  "name": "decrypt-https-proxy",
+  "version": "1.0.0",
+  "description": "Convert an HTTPS proxy to HTTP for clients that do not support HTTPS proxies.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimothyGu/decrypt-https-proxy.git"
+  },
+  "keywords": [
+    "proxy",
+    "http",
+    "https"
+  ],
+  "author": "Timothy Gu <timothygu99@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TimothyGu/decrypt-https-proxy/issues"
+  },
+  "homepage": "https://github.com/TimothyGu/decrypt-https-proxy#readme",
+  "dependencies": {
+    "portfinder": "^1.0.13",
+    "pump": "^1.0.2",
+    "yargs": "^8.0.2"
+  },
+  "yargs": {
+    "short-option-groups": false
+  }
+}
