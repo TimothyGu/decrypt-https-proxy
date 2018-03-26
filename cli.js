@@ -50,7 +50,6 @@ const argv =
       type: 'boolean',
       implies: 'quiet'
     })
-    .help()
     .argv;
 
 // argv.localPort defaults to a string.
