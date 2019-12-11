@@ -11,6 +11,9 @@ const HTTPSToHTTPProxyServer = require('./index.js');
 const argv =
   yargs
     .usage('$0 -ua <https-address> [-up <https-port>] [-la <http-address>] [-lp <http-port>]')
+    .parserConfiguration({
+      'short-option-groups': false
+    })
     .option('ua', {
       alias: 'upstream-address',
       describe: 'Upstream HTTPS address',
